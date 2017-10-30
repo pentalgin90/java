@@ -19,6 +19,15 @@ public class  Metods{
 		String b = sp.nextLine();
 		return b;
 	}
-		
+	public boolean sravnPoley(Student a, Student proverka) {
+		boolean log = false;
+		int result = a.getFakultet().compareTo(proverka.getFakultet());
+		if(result == 0) {
+			log = true;
+		}else {
+			log = false;
+		}
+		return log;
+	}
 	
 }

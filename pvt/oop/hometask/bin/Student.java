@@ -7,6 +7,7 @@ public class Student extends Human{
 	private String group;
 	private String kurs;
 	
+	public Student() {}
 	public Student(int id, String surname, String name, String ochestvo, String adres, String telephone, int date, String fakultet, String group, String kurs) {
 		super(id, surname, name, ochestvo, adres, telephone);
 		this.date = date;
